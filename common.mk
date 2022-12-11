@@ -280,6 +280,8 @@ PRODUCT_PACKAGES += \
 ifdef TARGET_NFC_CHIPSET
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
+    SecureElement \
+    NfcNci \
     Tag
 ifeq ($(TARGET_NFC_CHIPSET),snxxx)
 PRODUCT_PACKAGES += \
