@@ -119,4 +119,8 @@
 
     <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
     <bool name="config_telephony5gNonStandalone">true</bool>
+
+    <!-- Shows the required view for Screen Off Udfps -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
+
 </resources>
